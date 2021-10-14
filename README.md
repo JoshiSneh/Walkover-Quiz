@@ -29,7 +29,7 @@ Deployed Version - http://walkover-quiz.epizy.com/
  
 5. Visit the home page in browser. Use the `"Admin Panel"` to login to Admin Panel ` Default user - 'admin' pass - 'admin123'`. 
 
-6. Use the `"User Panel"` to login to User Panel `Default user - "User1" pass- "1234567"`. 
+6. Use the `"User Panel"` to login to User Panel `Default user - "User1" pass- "123456789"`. 
 
 
 # Tech Stack Used:
