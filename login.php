@@ -4,7 +4,6 @@ if (isset($_SESSION["username"])) {
     session_destroy();
 }
 include_once 'dbConnection.php';
-$ref      = @$_GET['q'];
 $username = $_POST['username'];
 $password = $_POST['password'];
 
