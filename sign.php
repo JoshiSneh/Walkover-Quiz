@@ -1,7 +1,6 @@
 <?php
 include_once 'dbConnection.php';
 $name     = $_POST['name'];
-$name     = ucwords(strtolower($name));
 $gender   = $_POST['gender'];
 $username = $_POST['username'];
 $phno     = $_POST['phno'];
@@ -10,7 +9,6 @@ $branch   = $_POST['branch'];
 $rollno   = $_POST['rollno'];
 $name     = stripslashes($name);
 $name     = addslashes($name);
-$name     = ucwords(strtolower($name));
 $gender   = stripslashes($gender);
 $gender   = addslashes($gender);
 $username = stripslashes($username);
@@ -31,5 +29,4 @@ if ($q3) {
 } else {
     header("location:index.php?q7=Username already exists. Please choose another&name=$name&username=$username&gender=$gender&phno=$phno&branch=$branch&rollno=$rollno");
 }
-ob_end_flush();
 ?>
