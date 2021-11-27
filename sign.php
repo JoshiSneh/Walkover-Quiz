@@ -1,6 +1,5 @@
 <?php
 include_once 'dbConnection.php';
-ob_start();
 $name     = $_POST['name'];
 $name     = ucwords(strtolower($name));
 $gender   = $_POST['gender'];
